@@ -76,9 +76,9 @@ export default function TodoList() {
               {todo.task}
             </span>
 
-            {/* Buttons to delete and mark a task as done */}
+            {/*icons to delete and mark a task as done */}
             &nbsp;&nbsp;&nbsp;
-            <i
+            <i 
               className="fa-regular fa-trash-can"
               onClick={() => deleteTodo(todo.id)}
               id="icon"
